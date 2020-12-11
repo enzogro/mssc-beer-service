@@ -1,5 +1,6 @@
 package guru.sfg.brewery.model;
 
+
 /**
  * Created by jt on 2019-05-12.
  */

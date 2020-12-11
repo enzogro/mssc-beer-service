@@ -1,5 +1,6 @@
 package guru.springframework.msscbeerservice.config;
 
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
@@ -16,7 +17,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class TaskConfig {
 
     @Bean
-    TaskExecutor taskExecutor(){
+    TaskExecutor taskExecutor() {
         return new SimpleAsyncTaskExecutor();
     }
 }
